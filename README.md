@@ -20,6 +20,7 @@ userIP(req)
 ## Usage
 
 ```js
+'use strict';
 const http = require('http');
 const userIP = require('user-ip');
 
