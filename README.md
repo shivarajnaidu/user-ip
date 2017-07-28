@@ -19,6 +19,10 @@ http.createServer(function (req, res) {
 }).listen(3000);
 ```
 
-### userIP(request)
+### userIP(req)
 
-* `request` - REQUIRED: http/https server request object
+* `req` - REQUIRED: http/https server request object
+
+###
+
+Please Contribute And Improve It To Handle Much More Edge Cases..
