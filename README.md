@@ -1,6 +1,8 @@
 # user-ip
 Simple NPM to know your user's IP Address
 
+[![Build Status](https://travis-ci.org/shivarajnaidu/user-ip.svg?branch=master)](https://travis-ci.org/shivarajnaidu/user-ip)
+
 ## Install
 
 ```
