@@ -4,10 +4,18 @@ Simple NPM to know your user's IP Address
 [![Build Status](https://travis-ci.org/shivarajnaidu/user-ip.svg?branch=master)](https://travis-ci.org/shivarajnaidu/user-ip)
 
 ## Install
+(This Requires Node 4.x or Later...)
 
 ```
 npm install user-ip --save
 ```
+
+### API
+
+userIP(req)
+
+* `req` - REQUIRED: http/https server request object
+
 
 ## Usage
 
@@ -21,10 +29,9 @@ http.createServer(function (req, res) {
 }).listen(3000);
 ```
 
-### userIP(req)
 
-* `req` - REQUIRED: http/https server request object
 
-###
+### Please Contribute And Improve It To Handle Much More Edge Cases..
 
-Please Contribute And Improve It To Handle Much More Edge Cases..
+Thank You!
+
