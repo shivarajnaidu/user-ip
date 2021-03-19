@@ -1,7 +1,7 @@
 {
   "name": "user-ip",
-  "version": "1.0.0",
-  "description": "Simple NPM to know your user's IP Address",
+  "version": "1.0.1",
+  "description": "Simple NPM to know your user's real IP Address from request",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive"
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/shivarajnaidu/user-ip#readme",
   "devDependencies": {
     "chai": "^4.1.0",
-    "mocha": "^3.4.2",
-    "supertest": "^3.0.0"
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
   }
 }
