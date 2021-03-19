@@ -4,7 +4,7 @@
   "description": "Simple NPM to know your user's real IP Address from request",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --exit --recursive"
   },
   "repository": {
     "type": "git",
