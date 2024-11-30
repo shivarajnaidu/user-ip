@@ -1,8 +1,15 @@
 {
   "name": "user-ip",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Simple NPM to know your user's real IP Address from request",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "types": "index.d.ts",  
   "scripts": {
     "test": "mocha --exit --recursive"
   },
@@ -15,13 +22,19 @@
     "user-ip",
     "client-ip"
   ],
+  "files": [
+    "lib",
+    "index.js", 
+    "index.mjs",
+    "index.d.ts"
+  ],
   "author": "Yuvaraj V",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shivarajnaidu/user-ip/issues"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=18.0.0"
   },
   "homepage": "https://github.com/shivarajnaidu/user-ip#readme",
   "devDependencies": {
