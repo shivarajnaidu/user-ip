@@ -1,6 +1,6 @@
 {
   "name": "user-ip",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple NPM to know your user's real IP Address from request",
   "main": "index.js",
   "exports": {
